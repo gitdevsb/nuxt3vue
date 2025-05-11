@@ -2,8 +2,13 @@
 </script>
 
 <template>
-  <div class="bg-white">
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+    <div>
+        <!-- <NuxtRouteAnnouncer /> -->
+        <!-- <NuxtWelcome /> -->
+        <NuxtLayout>
+            <NuxtPage></NuxtPage>
+            
+        </NuxtLayout>
+        
+    </div>
 </template>
